@@ -16,7 +16,6 @@ jobs:
           passphrase: ${{ secrets.SERVER_PASSPHRASE }}
      
           script: |
-            mkdir Tverdun
             cd Tverdun
             git clone https://github.com/YaroslavTverdun/Gigantonio.git
             echo 'Deployment successful to DigitalOcean'
